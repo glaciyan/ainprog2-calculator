@@ -1,0 +1,48 @@
+.medium-padding {
+  padding: 0.5rem 0.5rem;
+}
+
+.light-border {
+  border: #a8a8a8 1px solid;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerValues {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0.3rem;
+  .medium-padding();
+  .light-border();
+}
+
+.containerOptions {
+  display: flex;
+  justify-content: center;
+  .medium-padding();
+}
+
+.radDegFieldSet {
+  display: flex;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.containerOperator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.3rem;
+  .medium-padding();
+  .light-border();
+}
+
+.containerClear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.2rem 0;
+}
